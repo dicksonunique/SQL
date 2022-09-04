@@ -1,10 +1,10 @@
 Declare
-a nunber;
+a number;
 b number;
 
 Begin
-a:=5;
-b:=6;
-dbms_output.put_line('Sum of a+b'||''||a+b);
+a:=&first_num;
+b:=&second_num;
+dbms_output.put_line('Sum of a+b'||' '||a+b);
 end;
 /
